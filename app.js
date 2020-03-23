@@ -9,7 +9,7 @@ const encrypt = require("mongoose-encryption")
 
 mongoose.connect("mongodb://127.0.0.1/testDB", {
 
-  // const password = "Test123"
+  // const password = process.env.DBPASSWORD;
   // mongoose.connect("mongodb+srv://admin-kevinjs:" + password + "@cluster0-gh5eh.mongodb.net/blogDB", {
 
   useNewUrlParser: true,
